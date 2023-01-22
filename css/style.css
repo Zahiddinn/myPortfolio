@@ -28,18 +28,17 @@
 .header__wrapper {
 }
 .header__nav {
-    height: calc(20px + (70 - 20) * ((100vw - 320px) / (1440 - 320)));    display: flex;
+    height: 82px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header_titleList {
     
-}
 .header_list {
     list-style: none;
+    display: block;
 }
 .header_list a {
-    display: block;
     text-decoration: none;
     font-family: 'Gilroy-Bold';
     font-weight: 700;
@@ -48,16 +47,14 @@
     text-align: center;
     color: #828282;
     }
-.header__info {
-}
 hr {
-    border: 1px solid #828282;
+    border-bottom: 1px solid #828282;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 
 .header__information {
-    margin-top: calc(15px + (40 - 15) * ((100vw - 320px) / (1440 - 320)));
+    margin-top: 46px;
 }
 .header__information img {
     width: 100%;
@@ -65,57 +62,58 @@ hr {
 .header__data {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: calc(3px + (35 - 3) * ((100vw - 320px) / (1440 - 320)));
+    margin-bottom: 43px;
 }
 .header__name {
     font-family: Gilroy-Bold;
     font-weight: 700;
     font-size: 48px;
-    width: calc(90px + (250 - 90) * ((100vw - 320px) / (1440 - 320)));
-    line-height: calc(15px + (42 - 15) * ((100vw - 320px) / (1140 - 320)));
+    max-width: 250px;
+    line-height: 59px;
     color: #070707;
     
 }
 .header__info {
     align-self: flex-end;
-    padding: 0 0 calc(2px + (10 - 2) * ((100vw - 320px) / (1440 - 320))) calc(15px + (80 - 15) * ((100vw - 320px) / (1440 - 320)));
+    padding: 0 0 12px 96px;
 }
 .header__profession {
     font-family: Gilroy-Medium;
     font-weight: 500;
-    line-height: calc(15px + (20 - 15) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 22px;
     font-size: 18px;
     color: #070707;
 }        
 .header__age {
     font-family: Gilroy-Medium;
     font-weight: 500;
-    line-height: calc(15px + (20 - 15) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 22px;
     font-size: 18px;
     color: #070707
 }
 @media (max-width: 945px) { 
-    /* .container {
-    margin: 0 calc(5px + (40 - 5) * ((100vw - 320px) / (1440 - 320)));
+     .container {
+    margin: 0 5px;
     }
     .header__nav {
-        height: calc(20px + (88 - 20) * ((100vw - 320px) / (945 - 320)));
+        height: 20px;
+    }
+    .header_list a {
+        font-size: 7px;
     }
     .header__information {
-        margin-top: calc(15px + (40 - 15) * ((100vw - 320px) / (945 - 320)));
+        margin-top: 15px;
 
     }
     .header__data {
-        margin-bottom: calc(5px + (40 - 5) * ((100vw - 320px) / (945 - 320)));
+        margin-bottom: 30px;
     }
 
-    .header_list a {
-        font-size: calc(5px + (18 - 5) * ((100vw - 320px) / (945 - 320)));
-    }
+    
      .header__name {
-        font-size: calc(12px + (47 - 12) * ((100vw - 320px) / (945 - 320)));
-        width: calc(100px + (250 - 100) * ((100vw - 320px) / (945 - 320)));
-        line-height: calc(15px + (59 - 15) * ((100vw - 320px) / (945 - 320)));
+        font-size: 15px;
+        width: 115px;
+        line-height: 18px;
     }
     .header__info {
         padding-left: calc(15px + (170 - 15) * ((100vw - 320px) / (945 - 320)));
@@ -125,7 +123,7 @@ hr {
      {
         line-height: calc(15px + (22 - 15) * ((100vw - 320px) / (945 - 320)));
         font-size: calc(9px + (18 - 9) * ((100vw - 320px) / (945 - 320)));
-    } */
+    }
     
 }
 
@@ -133,7 +131,7 @@ hr {
 
 .aboutMe {
     background: #F6F6F6;
-    padding: calc(30px + (100 - 40) * ((100vw - 320px) / (1440 - 320))) 0 calc(15px + (61 - 20) * ((100vw - 320px) / (1440 - 320))) 0;
+    padding: 120px 0 107px;
 }
 .title {
     text-align-last: center;
@@ -141,34 +139,34 @@ hr {
     text-align: center;
     color: #070707;
     font-size: 34px;
-    line-height: calc(21px + (38 - 21) * ((100vw - 320px) / (1440 - 320)));
-    padding-bottom: calc(10px + (40 - 10) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 42px;
+    padding-bottom: 47px;
 }
 .subTitle {
     text-align-last: center;
     font-family: Gilroy-Medium;
     font-weight: 500;
     font-size: 18px;
-    line-height: calc(10px + (19 - 10) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 22px;
     text-align: center;
     color: #070707;
-    padding-bottom: calc(15px + (40 - 15) * ((100vw - 320px) / (1440 - 320)));
+    padding:0 0 50px ;
 }
 @media (max-width: 945px) {
-    /* .aboutMe {
-        padding-top: calc(30px + (120 - 40) * ((100vw - 320px) / (945 - 320)));
-        padding-bottom: calc(15px + (61 - 20) * ((100vw - 320px) / (945 - 320)));
-    } */
-    /* .aboutMe__title {
-        font-size: calc(15px + (34 - 15) * ((100vw - 320px) / (945 - 320)));
-        line-height: calc(21px + (42 - 21) * ((100vw - 320px) / (945 - 320)));
+    .aboutMe {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    } 
+     .aboutMe__title {
+        font-size: 15px;
+        line-height: 21px;
         padding-bottom: calc(10px + (39 - 10) * ((100vw - 320px) / (945 - 320)));
-    } */
-    /* .aboutMe__item {
-        font-size: calc(9px + (18 - 9) * ((100vw - 320px) / (945 - 320)));
+    } 
+    .aboutMe__item {
+        font-size: 9px;
         line-height: calc(10px + (22 - 10) * ((100vw - 320px) / (945 - 320)));
         padding-bottom: calc(15px + (50 - 15) * ((100vw - 320px) / (945 - 320)));
-    } */
+    }
 }
 
 
@@ -178,7 +176,7 @@ hr {
 
 
 .skills {
-    padding: calc(10px + (60 - 10) * ((100vw - 320px) / (1024 - 320))) 0 calc(10px + (30 - 10) * ((100vw - 320px) / (1024 - 320))) 0;
+    padding: 110px 0
 
 }
 .skills__program {
@@ -208,14 +206,14 @@ hr {
     font-family: Gilroy-Bold;
     font-weight: 700;
     font-size: 18px;
-    line-height: calc(9px + (18 - 9) * ((100vw - 320px) / (1440 - 320)));
+    line-height: 17px;
     text-align: center;
     color: #828282;
 }
 
 .skills__star img {
-    width: calc(10px + (15 - 10) * ((100vw - 320px) / (1440 - 320)));
-    height: calc(10px + (15 - 10) * ((100vw - 320px) / (1440 - 320)));
+    width: 16px;
+    height: 16px;
 
 }
 
@@ -230,7 +228,7 @@ hr {
 
 .portfolio {
     background: #F6F6F6;
-    padding: 112PX 0 0 0;
+    padding: 132PX 0 0 0;
 }
 
 .portfolio__bloc-img img {
@@ -268,10 +266,12 @@ hr {
 
 
 
+/*//////////////////////////////FOOTER*/
 
 
-
-
+footer {
+    padding: 115px 0 123px;
+}
 
 
 
@@ -306,12 +306,12 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 86px 0;
+    padding: 40px 0 0;
 }
 .media img {
     cursor: pointer;
 }
 
 .telegram {
-    margin: 0 80px ;
+    padding: 0 80px ;
 }
