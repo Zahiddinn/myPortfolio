@@ -99,7 +99,7 @@ hr {
         height: 20px;
     }
     .header_list a {
-        font-size: 7px;
+        font-size: 10px;
     }
     .header__information {
         margin-top: 15px;
@@ -111,18 +111,18 @@ hr {
 
     
      .header__name {
-        font-size: 15px;
-        width: 115px;
-        line-height: 18px;
+        font-size: 28px;
+        width: 150px;
+        line-height: 30px;
     }
     .header__info {
-        padding-left: calc(15px + (170 - 15) * ((100vw - 320px) / (945 - 320)));
+        padding: 0 0 5px 30px;
     }
      .header__profession,
     .header__age
      {
-        line-height: calc(15px + (22 - 15) * ((100vw - 320px) / (945 - 320)));
-        font-size: calc(9px + (18 - 9) * ((100vw - 320px) / (945 - 320)));
+        line-height: 16px;
+        font-size: 14px;
     }
     
 }
@@ -158,13 +158,13 @@ hr {
         padding-bottom: 60px;
     } 
      .aboutMe__title {
-        font-size: 15px;
-        line-height: 21px;
+        font-size: 34px;
+        line-height: 42px;
         padding-bottom: calc(10px + (39 - 10) * ((100vw - 320px) / (945 - 320)));
     } 
     .aboutMe__item {
-        font-size: 9px;
-        line-height: calc(10px + (22 - 10) * ((100vw - 320px) / (945 - 320)));
+        font-size: 18px;
+        line-height: 22px;
         padding-bottom: calc(15px + (50 - 15) * ((100vw - 320px) / (945 - 320)));
     }
 }
