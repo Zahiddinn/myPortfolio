@@ -43,7 +43,7 @@
     text-decoration: none;
     font-family: 'Gilroy-Bold';
     font-weight: 700;
-    font-size: calc(8px + (12 - 8) * ((100vw - 320px) / (945 - 320)));    
+    font-size: 18px;    
     line-height: 22px;
     text-align: center;
     color: #828282;
@@ -70,7 +70,7 @@ hr {
 .header__name {
     font-family: Gilroy-Bold;
     font-weight: 700;
-    font-size: calc(15px + (40 - 15) * ((100vw - 320px) / (1440 - 320)));
+    font-size: 48px;
     width: calc(90px + (250 - 90) * ((100vw - 320px) / (1440 - 320)));
     line-height: calc(15px + (42 - 15) * ((100vw - 320px) / (1140 - 320)));
     color: #070707;
@@ -84,43 +84,43 @@ hr {
     font-family: Gilroy-Medium;
     font-weight: 500;
     line-height: calc(15px + (20 - 15) * ((100vw - 320px) / (1440 - 320)));
-    font-size: calc(10px + (18 - 10) * ((100vw - 320px) / (1440 - 320)));
+    font-size: 18px;
     color: #070707;
 }        
 .header__age {
     font-family: Gilroy-Medium;
     font-weight: 500;
     line-height: calc(15px + (20 - 15) * ((100vw - 320px) / (1440 - 320)));
-    font-size: calc(10px + (18 - 10) * ((100vw - 320px) / (1440 - 320)));
+    font-size: 18px;
     color: #070707
 }
 @media (max-width: 945px) { 
-    .container {
+    /* .container {
     margin: 0 calc(5px + (40 - 5) * ((100vw - 320px) / (1440 - 320)));
     }
-    /* .header__nav {
+    .header__nav {
         height: calc(20px + (88 - 20) * ((100vw - 320px) / (945 - 320)));
-    } */
-    /* .header__information {
+    }
+    .header__information {
         margin-top: calc(15px + (40 - 15) * ((100vw - 320px) / (945 - 320)));
 
-    } */
-    /* .header__data {
+    }
+    .header__data {
         margin-bottom: calc(5px + (40 - 5) * ((100vw - 320px) / (945 - 320)));
-    } */
+    }
 
-    /* .header_list a {
+    .header_list a {
         font-size: calc(5px + (18 - 5) * ((100vw - 320px) / (945 - 320)));
-    } */
-    /* .header__name {
+    }
+     .header__name {
         font-size: calc(12px + (47 - 12) * ((100vw - 320px) / (945 - 320)));
         width: calc(100px + (250 - 100) * ((100vw - 320px) / (945 - 320)));
         line-height: calc(15px + (59 - 15) * ((100vw - 320px) / (945 - 320)));
-    } */
-    /* .header__info {
+    }
+    .header__info {
         padding-left: calc(15px + (170 - 15) * ((100vw - 320px) / (945 - 320)));
-    } */
-    /* .header__profession,
+    }
+     .header__profession,
     .header__age
      {
         line-height: calc(15px + (22 - 15) * ((100vw - 320px) / (945 - 320)));
@@ -140,7 +140,7 @@ hr {
     font-family: Gilroy-Bold;
     text-align: center;
     color: #070707;
-    font-size: calc(15px + (26 - 15) * ((100vw - 320px) / (1440 - 320)));
+    font-size: 34px;
     line-height: calc(21px + (38 - 21) * ((100vw - 320px) / (1440 - 320)));
     padding-bottom: calc(10px + (40 - 10) * ((100vw - 320px) / (1440 - 320)));
 }
@@ -148,7 +148,7 @@ hr {
     text-align-last: center;
     font-family: Gilroy-Medium;
     font-weight: 500;
-    font-size: calc(10px + (16 - 10) * ((100vw - 320px) / (1440 - 320)));
+    font-size: 18px;
     line-height: calc(10px + (19 - 10) * ((100vw - 320px) / (1440 - 320)));
     text-align: center;
     color: #070707;
@@ -207,7 +207,7 @@ hr {
 .skills__text {
     font-family: Gilroy-Bold;
     font-weight: 700;
-    font-size: calc(10px + (16 - 10) * ((100vw - 320px) / (1440 - 320)));
+    font-size: 18px;
     line-height: calc(9px + (18 - 9) * ((100vw - 320px) / (1440 - 320)));
     text-align: center;
     color: #828282;
@@ -280,7 +280,11 @@ hr {
 
 
 
-
+.wrapper__btn { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -294,4 +298,20 @@ hr {
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 86px 0;
+}
+.media img {
+    cursor: pointer;
+}
+
+.telegram {
+    margin: 0 80px ;
 }
