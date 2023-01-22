@@ -99,7 +99,7 @@ hr {
         height: 20px;
     }
     .header_list a {
-        font-size: 10px;
+        font-size: 16px;
     }
     .header__information {
         margin-top: 15px;
@@ -273,13 +273,6 @@ footer {
     padding: 115px 0 123px;
 }
 
-
-
-
-
-
-
-
 .wrapper__btn { 
     display: flex;
     justify-content: center;
@@ -305,13 +298,9 @@ footer {
 .media {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 40px 0 0;
 }
 .media img {
     cursor: pointer;
-}
-
-.telegram {
-    padding: 0 80px ;
 }
