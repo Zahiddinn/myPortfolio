@@ -17,6 +17,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .header {
     margin-bottom: calc(20px + (105 - 20) * ((100vw - 320px) / (1440 - 320)));
@@ -32,6 +33,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid #828282;
 }
     
 .header_list {
@@ -47,10 +49,6 @@
     text-align: center;
     color: #828282;
     }
-hr {
-    border-bottom: 1px solid #828282;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-}
 
 
 .header__information {
@@ -96,7 +94,7 @@ hr {
     margin: 0 5px;
     }
     .header__nav {
-        height: 20px;
+        height: 28px;
     }
     .header_list a {
         font-size: 16px;
